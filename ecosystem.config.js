@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name   : "video",
+    name   : "ion-sfu",
     script  : "./main",
     //watch: true,
     //watch_delay: 1000,
