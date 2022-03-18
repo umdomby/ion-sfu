@@ -99,7 +99,7 @@ func parse() bool {
 	flag.StringVar(&file, "c", "config.toml", "config file")
     flag.StringVar(&cert, "cert", "./cert.pem", "cert file")
     flag.StringVar(&key, "key", "./key.pem", "key file")
-    flag.StringVar(&addr, "a", ":4434", "address to use")
+    flag.StringVar(&addr, "a", ":4435", "address to use")
 	flag.StringVar(&metricsAddr, "m", ":8100", "merics to use")
 	flag.IntVar(&verbosityLevel, "v", -1, "verbosity level, higher value - more logs")
 	help := flag.Bool("h", false, "help info")
