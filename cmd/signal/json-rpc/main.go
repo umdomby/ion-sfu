@@ -98,7 +98,9 @@ func load() bool {
 func parse() bool {
 	flag.StringVar(&file, "c", "config.toml", "config file")
     flag.StringVar(&cert, "cert", "./cert.pem", "cert file")
-    flag.StringVar(&key, "key", "./key.pem", "key file")
+    flag.StringVar(&key, "key", "./privkey.pem", "key file")
+//     flag.StringVar(&cert, "cert", "./servicerobotpro/cert.pem", "cert file")
+//     flag.StringVar(&key, "key", "./servicerobotpro/privkey.pem", "key file")
     flag.StringVar(&addr, "a", ":4435", "address to use")
 	flag.StringVar(&metricsAddr, "m", ":8100", "merics to use")
 	flag.IntVar(&verbosityLevel, "v", -1, "verbosity level, higher value - more logs")
